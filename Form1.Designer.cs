@@ -71,7 +71,6 @@
             this.label3.Size = new System.Drawing.Size(37, 15);
             this.label3.TabIndex = 2;
             this.label3.Text = "公里";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -124,6 +123,7 @@
             this.txtM.Name = "txtM";
             this.txtM.Size = new System.Drawing.Size(128, 25);
             this.txtM.TabIndex = 8;
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // txtKM
             // 
@@ -131,6 +131,7 @@
             this.txtKM.Name = "txtKM";
             this.txtKM.Size = new System.Drawing.Size(128, 25);
             this.txtKM.TabIndex = 9;
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // txtIn
             // 
@@ -138,6 +139,7 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(128, 25);
             this.txtIn.TabIndex = 10;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // txtFt
             // 
@@ -145,6 +147,7 @@
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(128, 25);
             this.txtFt.TabIndex = 11;
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // txtYard
             // 
@@ -152,6 +155,7 @@
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(128, 25);
             this.txtYard.TabIndex = 12;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // label7
             // 
